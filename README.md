@@ -1,11 +1,12 @@
-# Jekyll source for blog.lanyonm.org
-Read more here: [GitHub User Pages](https://help.github.com/articles/user-organization-and-project-pages).
+# Jekyll source for wsjeon.github.io.
+
+The original source comes from [blog.lanyonm.org](https://blog.lanyonm.org).
 
 # License
-The following directories and their contents are Copyright Michael Lanyon.  You may not reuse anything therein without my permission:
+The following directories and their contents are Copyright Wonseok Jeon.
+- _posts/
+- _drafts/
+- images/
 
-*   _posts/
-*   _drafts/
-*   images/ (unless otherwise noted in a watermark)
-
+You are not allowed to use anything therein without the permission from Wonseok Jeon. 
 All other directories and files are MIT Licensed.

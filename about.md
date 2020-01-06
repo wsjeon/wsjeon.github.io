@@ -3,7 +3,9 @@ layout: page
 title: About
 ---
 
-Hi. I'm Wonseok Jeon. Starting from May 2019, I've been working as a postdoc researcher at Mila/McGill University under Professor Joelle Pineau. My research interest includes machine learning in sequential decision making problems (reinforcement learning, imitation learning, inverse reinforcement learning, multi-agent learning) and probabilistic inference methods.
+Hi. I'm Wonseok Jeon.
+
+Starting from May 2019, I've been working as a postdoc researcher at Mila/McGill University under Professor Joelle Pineau. My research interest includes machine learning in sequential decision making problems (reinforcement learning, imitation learning, inverse reinforcement learning, multi-agent learning) and probabilistic inference methods.
 
 <p class="social-icons">
   <!-- <a href="https://twitter.com/lanyonm"><i class="fab fa-twitter fa-2x"></i></a> -->
