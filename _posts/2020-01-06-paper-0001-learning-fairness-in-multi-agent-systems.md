@@ -2,10 +2,7 @@
 layout: post
 title: "Learning Fairness in Multi-Agent Systems"
 category: summary
-tags:
-  - multi-agent
-  - reinforcement learning
-  - fairness
+tags: [multi-agent, reinforcement learning, fairness]
 comments: true
 ---
 
