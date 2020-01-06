@@ -1,9 +1,18 @@
 ---
+
 layout: post
+
 title: "Learning Fairness in Multi-Agent Systems"
+
 category: summary
-tags: [multi-agent, reinforcement learning, fairness]
+
+tags:
+  - multi-agent
+  - reinforcement learning
+  - fairness
+
 comments: true
+
 ---
 
 ## Authors
@@ -12,3 +21,14 @@ comments: true
 
 ## Abstract
 Fairness is essential for human society, contributing to stability and productivity. Similarly, fairness is also the key for many multi-agent systems. Taking fairness into multi-agent learning could help multi-agent systems become both efficient and stable. However, learning efficiency and fairness simultaneously is a complex, multi-objective, joint-policy optimization. To tackle these difficulties, we propose FEN, a novel hierarchical reinforcement learning model. We first decompose fairness for each agent and propose fair-efficient reward that each agent learns its own policy to optimize. To avoid multi-objective conflict, we design a hierarchy consisting of a controller and several sub-policies, where the controller maximizes the fair-efficient reward by switching among the sub-policies that provides diverse behaviors to interact with the environment. FEN can be trained in a fully decentralized way, making it easy to be deployed in real-world applications. Empirically, we show that FEN easily learns both fairness and efficiency and significantly outperforms baselines in a variety of multi-agent scenarios.
+
+## Overall Score
+- *NOTE*: Minimum score is 1.0. If there was no assessment, score is 0.0.
+- Review Assessment
+  - Thoroughness In Paper Reading: 0.0 / 5.0
+  - Level of Understanding: 0.0 / 5.0
+  - Checking Correctness Of Derivations And Theory: 0.0 / 5.0
+  - Checking Correctness Of Experiments: 0.0 / 5.0
+- Novelty: 0.0 / 5.0
+- Readability: 0.0 / 5.0
+- Reproducibility: 0.0 / 5.0
