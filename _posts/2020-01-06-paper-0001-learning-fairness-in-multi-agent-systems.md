@@ -77,7 +77,7 @@ Fairness is essential for human society, contributing to stability and productiv
   $$
 
   - $\bar{u}_t/c$ for a constant $c>0$: the resource utilization of the system, encouraging the agent to improve efficiency
-  - $\epsilon+|u_t^i/\bar{u}_t-1|$: giving punishment if agents' own utility deviates from the average one.
+  - $\epsilon + \lvert u_t^i/\bar{u}_t-1 \rvert$: giving punishment if agents' own utility deviates from the average one.
     - $\epsilon>0$ is to avoid zero division.
 
   - Each agent $i$ tries to maximizes discounted sum of fair-efficient rewards.
