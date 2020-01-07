@@ -83,44 +83,6 @@ Fairness is essential for human society, contributing to stability and productiv
         \sum_{t=0}^\infty \gamma^t \hat{r}_t^i
       \right],
     $$
-<!--
-  - **Proposition 1.** The optimal fair-efficient policy set $\Pi^*$ is Pareto efficient in infinite-horizon sequential decision-making.
-
-    - *optimal* means we cannot increase one of $F_i$s without decreasing another $F_j$.
-    - The resources must be fully occupied.
-      - Assume $\pi$ didn't fully use the resource. Then, we can always find out $\pi'$ that fully utilizes the resources in a way that it separates the remaining resources according to the ratio of $u^i/n\bar{u}$. Then, for the remaining resources $\delta$,
-        $$
-          {u^i}'=u^i+\delta\frac{u^i}{n\bar{u}},
-          {\bar{u}}'=\bar{u}+\delta\frac{1}{n},\\
-          \frac{{u^i}'}{\bar{u}'}-1
-          =
-          \frac{
-            u^i+\delta\frac{u^i}{n\bar{u}}
-          }{
-            \bar{u}+\delta\frac{1}{n}
-          }-1
-          =
-          \frac{
-            \bar{u}(\frac{u^i}{\bar{u}}-1)+\frac{\delta}{n}(\frac{u^i}{\bar{u}}-1)
-          }{
-            \bar{u}+\delta\frac{1}{n}
-          }
-          =
-          \frac{u^i}{\bar{u}}-1.
-        $$
-        - It's natural since the resource allocation ratio is preserved.
-        - However, $\bar{u}'/c > \bar{u}/c$, which means $F_i'>F_i$ and $\pi$ is not optimal. That is, optimal policy should fully occupy resources.
-    - $\Pi^*$ is Pareto efficient.
-      - Assume $\pi$ didn't achieve Pareto optimality, then, there must exist
-        $\forall i, {u^i}'\ge u^i \land \exists i, {u^i}' > u^i$,
-        so $\sum_{i=1}^n {u^i}' > \sum_{i=1}^n u^i$, which contradicts $\Pi^*$ should fully occupy resources.
-
-  - **Proposition 2.** The optimal fair-efficient policy set $\Pi^*$ achieves equal allocation when the resources are fully occupied.
-
-    - Honestly, I don't understand the proof 100%, but I guess their method is like below. Assume non-equal resource allocation, i.e., $\exists i, u_i>\bar{u}$. For those agents (single or multiple agents, let $\mathcal{I}$), let them give up their resources, i.e., $u_i=\bar{u}$. Since $\pi^*$ (optimal fair policy) should fully utilize resource, make those resourced used by the other agents (let $\mathcal{I}^C$). I haven't rigorously proved, but probably, by following the ratio-based resource allocation, it can be shown that $F_i'>F_i$ for all $i\in\mathcal{I}^C$. Additionally, since the mean $\bar{u}$ is maintained (due to the fully occupied resources), $F_i' > F_i$ for $i\in\mathcal{I}$ since $\hat{r}_t^i$ increases (see denominator). This process can be done recursively and since all procedures always increase (non-derease) $F_i$, which contradicts the precondition that $\pi$ was optimal.
-
-#### Hierarchy
- -->
 
 
 ## Overall Score
