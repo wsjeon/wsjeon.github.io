@@ -28,62 +28,108 @@ Fairness is essential for human society, contributing to stability and productiv
 
 #### Fair-Efficient Reward
 
-- Suppose there are $n$ agents and the environment's resources are limited.
-  - non-excludable and rivalrous, e.g., CPU memory, network bandwidth.
+- $n$ agents, limited **resources**
+  - non-excludable and rivalrous resources (common resources), e.g., CPU memory, network bandwidth
+    - For more information, see [this post](https://www.reviewecon.com/rival-excludable).
 
-- At the time step $t$, the reward $r$ from the environment is related to its occupied resources at $t$.
+- At the time step $t$, the environment's reward $r_t^i$ is assumed to be its occupied resources at $t$.
+  - e.g, bandwidth allocated to agent $i$ at time $t$
 
-- The utility of agent $i$ at the time step $t$ is defined as
+- The **utility** of agent $i$ at the time step $t$
   $$
   u_t^i=\frac{1}{t}\sum_{t'=0}^tr_{t'}^i,
   $$
-  which is the average reward over all elapsed time steps $t'=0, ..., t$.
+  - Average resources of agent $i$ until time $t$
 
-- The **coefficient of variation (CV)** of agents' utilities $u_1, ..., u_N$ is defined as (why?)
+- The **coefficient of variation (CV)** for $n$ agents at time $t$
   $$
+  CV_t
+  =
   \sqrt{
     \frac{1}{n-1}
     \sum_{i=1}^n
-    \frac{(u^i-\bar{u})^2}{\bar{u}^2}
-  },
+    \frac{(u_t^i-\bar{u}_t)^2}{(\bar{u}_t)^2}
+  }
+  =
+  \sqrt{
+    \frac{1}{n-1}
+    \sum_{i=1}^n
+    \left(
+      \frac{u_t^i}{\bar{u}_t} - 1
+    \right)^2
+  }
+  ,
   $$
-  where $\bar{u}:=\frac{1}{N}\sum_{i=1}^Nu_i$. Note that CV is used as a measure of fairness in this work.
-A system is said to be **fairer** if and only if CV is **smaller**.
+  - $\bar{u}_t:=\frac{1}{n}\sum_{i=1}^nu_t^i$
+  - A measure of fairness.
+    - A system is said to be **fairer** if and only if CV is **smaller**.
+    - $u_t^i/\bar{u}_t\rightarrow 1,\forall i$, then, $CV_t\rightarrow0$
+    - See [Rajendra K Jain, Dah-Ming W Chiu, and William R Hawe. A quantitative measure of fairness and discrimination. Technical report, 1984](https://arxiv.org/abs/cs/9809099) for more detail.
 
-- The **fair-efficient reward** is defined as
+- The **fair-efficient reward**
   $$
   \hat{r}_t^i
   =
   \frac{\bar{u}_t/c}{\epsilon+|u_t^i/\bar{u}_t-1|},
   $$
 
-  - $\bar{u}_t/c$: the resource utilization of the system, encouraging the agent to improve efficiency
-    - $c$ is a normalization constant and is set to the maximum environmental reward the agent obtains at a time step.
-  - $|u_t^i/\bar{u}_t-1|$: a measure for the agent's utility deviation from the average and the agent will be punished no matter it is above or below the average
-  - $\epsilon$: a small positive number to avoid zero denominator
+  - $\bar{u}_t/c$ for a constant $c>0$: the resource utilization of the system, encouraging the agent to improve efficiency
+  - $\epsilon+|u_t^i/\bar{u}_t-1|$: giving punishment if agents' own utility deviates from the average one.
+    - $\epsilon>0$ is to avoid zero division.
 
-- Each agent $i$ tries to maximizes
-  $$
-    F_i = \mathbb{E}\left[
-      \sum_{t=0}^\infty \gamma^t \hat{r}_t^i
-    \right],
-  $$
+  - Each agent $i$ tries to maximizes discounted sum of fair-efficient rewards.
+    $$
+      F_i = \mathbb{E}\left[
+        \sum_{t=0}^\infty \gamma^t \hat{r}_t^i
+      \right],
+    $$
 
-  - $\gamma$: a discount factor
+  - **Proposition 1.** The optimal fair-efficient policy set $\Pi^*$ is Pareto efficient in infinite-horizon sequential decision-making.
 
-**Proposition 1.** The optimal fair-efficient policy set $\Pi^*$ is Pareto efficient in infinite-horizon sequential decision-making.
+    - *optimal* means we cannot increase one of $F_i$s without decreasing another $F_j$.
+    - The resources must be fully occupied.
+      - Assume $\pi$ didn't fully use the resource. Then, we can always find out $\pi'$ that fully utilizes the resources in a way that it separates the remaining resources according to the ratio of $u^i/n\bar{u}$. Then, for the remaining resources $\delta$,
+        $$
+          {u^i}'=u^i+\delta\frac{u^i}{n\bar{u}},
+          {\bar{u}}'=\bar{u}+\delta\frac{1}{n},\\
+          \frac{{u^i}'}{\bar{u}'}-1
+          =
+          \frac{
+            u^i+\delta\frac{u^i}{n\bar{u}}
+          }{
+            \bar{u}+\delta\frac{1}{n}
+          }-1
+          =
+          \frac{
+            \bar{u}(\frac{u^i}{\bar{u}}-1)+\frac{\delta}{n}(\frac{u^i}{\bar{u}}-1)
+          }{
+            \bar{u}+\delta\frac{1}{n}
+          }
+          =
+          \frac{u^i}{\bar{u}}-1.
+        $$
+        - It's natural since the resource allocation ratio is preserved.
+        - However, $\bar{u}'/c > \bar{u}/c$, which means $F_i'>F_i$ and $\pi$ is not optimal. That is, optimal policy should fully occupy resources.
+    - $\Pi^*$ is Pareto efficient.
+      - Assume $\pi$ didn't achieve Pareto optimality, then, there must exist
+        $\forall i, {u^i}'\ge u^i \land \exists i, {u^i}' > u^i$,
+        so $\sum_{i=1}^n {u^i}' > \sum_{i=1}^n u^i$, which contradicts $\Pi^*$ should fully occupy resources.
 
-**Proposition 2.** The optimal fair-efficient policy set $\Pi^*$ achieves equal allocation when the resources are fully occupied.
+  - **Proposition 2.** The optimal fair-efficient policy set $\Pi^*$ achieves equal allocation when the resources are fully occupied.
+
+    - Honestly, I don't understand the proof 100%, but I guess their method is like below. Assume non-equal resource allocation, i.e., $\exists i, u_i>\bar{u}$. For those agents (single or multiple agents, let $\mathcal{I}$), let them give up their resources, i.e., $u_i=\bar{u}$. Since $\pi^*$ (optimal fair policy) should fully utilize resource, make those resourced used by the other agents (let $\mathcal{I}^C$). I haven't rigorously proved, but probably, by following the ratio-based resource allocation, it can be shown that $F_i'>F_i$ for all $i\in\mathcal{I}^C$. Additionally, since the mean $\bar{u}$ is maintained (due to the fully occupied resources), $F_i' > F_i$ for $i\in\mathcal{I}$ since $\hat{r}_t^i$ increases (see denominator). This process can be done recursively and since all procedures always increase (non-derease) $F_i$, which contradicts the precondition that $\pi$ was optimal.
+
+#### Hierarchy
 
 
 
 ## Overall Score
 - *NOTE*: Minimum score is 1.0. If there's been no assessment, score is 0.0.
 - Review Assessment
-  - Thoroughness In Paper Reading: 1.0 / 5.0
-  - Level of Understanding: 1.0 / 5.0
-  - Checking Correctness Of Derivations And Theory: 1.0 / 5.0
+  - Thoroughness In Paper Reading: 1.5 / 5.0
+  - Level of Understanding: 1.5 / 5.0
+  - Checking Correctness Of Derivations And Theory: 1.5 / 5.0
   - Checking Correctness Of Experiments: 1.0 / 5.0
-- Novelty: 0.0 / 5.0
-- Readability: 0.0 / 5.0
-- Reproducibility: 0.0 / 5.0
+- Novelty: 3.0 / 5.0
+- Readability: 2.0 / 5.0
+- Reproducibility: 1.0 / 5.0
