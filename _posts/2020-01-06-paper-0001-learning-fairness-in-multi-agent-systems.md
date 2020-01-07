@@ -93,36 +93,6 @@ Fairness is essential for human society, contributing to stability and productiv
     $$
 
 
-- **Proposition 1.** The optimal fair-efficient policy set $\Pi^*$ is Pareto efficient in infinite-horizon sequential decision-making.
-
-  - *optimal* means we cannot increase one of $F_i$s without decreasing another $F_j$.
-  - The resources must be fully occupied.
-    - Assume $\pi$ didn't fully use the resource. Then, we can always find out $\pi'$ that fully utilizes the resources in a way that it separates the remaining resources according to the ratio of $u^i/n\bar{u}$. Then, for the remaining resources $\delta$,
-      $$
-        {u^i}'=u^i+\delta\frac{u^i}{n\bar{u}},
-        {\bar{u}}'=\bar{u}+\delta\frac{1}{n},\\
-        \frac{{u^i}'}{\bar{u}'}-1
-        =
-        \frac{
-          u^i+\delta\frac{u^i}{n\bar{u}}
-        }{
-          \bar{u}+\delta\frac{1}{n}
-        }-1
-        =
-        \frac{
-          \bar{u}(\frac{u^i}{\bar{u}}-1)+\frac{\delta}{n}(\frac{u^i}{\bar{u}}-1)
-        }{
-          \bar{u}+\delta\frac{1}{n}
-        }
-        =
-        \frac{u^i}{\bar{u}}-1.
-      $$
-      - It's natural since the resource allocation ratio is preserved.
-      - However, $\bar{u}'/c > \bar{u}/c$, which means $F_i'>F_i$ and $\pi$ is not optimal. That is, optimal policy should fully occupy resources.
-  - $\Pi^*$ is Pareto efficient.
-    - Assume $\pi$ didn't achieve Pareto optimality, then, there must exist
-      $\forall i, {u^i}'\ge u^i \land \exists i, {u^i}' > u^i$,
-      so $\sum_{i=1}^n {u^i}' > \sum_{i=1}^n u^i$, which contradicts $\Pi^*$ should fully occupy resources.
 
 - **Proposition 2.** The optimal fair-efficient policy set $\Pi^*$ achieves equal allocation when the resources are fully occupied.
 
