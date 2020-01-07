@@ -65,11 +65,15 @@ Fairness is essential for human society, contributing to stability and productiv
   $$
 
   - A measure of fairness.
+
+    - $\bar{u}_t=\frac{1}{n}\sum_{i=1}^{n}u_t^i$.
+
     - A system is said to be **fairer** if and only if CV is **smaller**.
     - $u_t^i/\bar{u}_t\rightarrow 1,\forall i$, then, $CV_t\rightarrow0$
     - See [Rajendra K Jain, Dah-Ming W Chiu, and William R Hawe. A quantitative measure of fairness and discrimination. Technical report, 1984](https://arxiv.org/abs/cs/9809099) for more detail.
 
 - The **fair-efficient reward**
+
   $$
   \hat{r}_t^i
   =
@@ -81,10 +85,11 @@ Fairness is essential for human society, contributing to stability and productiv
     - $\epsilon>0$ is to avoid zero division.
 
   - Each agent $i$ tries to maximizes discounted sum of fair-efficient rewards.
+
     $$
-      F_i = \mathbb{E}\left[
-        \sum_{t=0}^\infty \gamma^t \hat{r}_t^i
-      \right],
+    F_i = \mathbb{E}\left[
+      \sum_{t=0}^\infty \gamma^t \hat{r}_t^i
+    \right],
     $$
 
 
