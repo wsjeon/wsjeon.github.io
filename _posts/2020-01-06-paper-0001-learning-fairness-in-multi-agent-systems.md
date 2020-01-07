@@ -112,19 +112,14 @@ Fairness is essential for human society, contributing to stability and productiv
     \frac{v^i}{\bar{v}}-1
     =
     \frac{
-      u^i+\delta\frac{u^i}{n\bar{u}}
+      \bar{u}(\dfrac{u^i}{\bar{u}}-1)+\dfrac{\delta}{n}(\dfrac{u^i}{\bar{u}}-1)
     }{
-      \bar{u}+\delta\frac{1}{n}
-    }-1
-    =
-    \frac{
-      \bar{u}(\frac{u^i}{\bar{u}}-1)+\frac{\delta}{n}(\frac{u^i}{\bar{u}}-1)
-    }{
-      \bar{u}+\delta\frac{1}{n}
+      \bar{u}+\delta\dfrac{1}{n}
     }
     =
     \frac{u^i}{\bar{u}}-1.
     $$
+    
     - It's natural since the resource allocation ratio is preserved.
     - However, $\bar{v}/c > \bar{u}/c$, which means $F_i'>F_i$ and $\pi$ is not optimal. That is, optimal policy should fully occupy resources.
 
