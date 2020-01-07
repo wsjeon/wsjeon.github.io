@@ -83,7 +83,7 @@ Fairness is essential for human society, contributing to stability and productiv
         \sum_{t=0}^\infty \gamma^t \hat{r}_t^i
       \right],
     $$
-
+<!--
   - **Proposition 1.** The optimal fair-efficient policy set $\Pi^*$ is Pareto efficient in infinite-horizon sequential decision-making.
 
     - *optimal* means we cannot increase one of $F_i$s without decreasing another $F_j$.
@@ -120,7 +120,7 @@ Fairness is essential for human society, contributing to stability and productiv
     - Honestly, I don't understand the proof 100%, but I guess their method is like below. Assume non-equal resource allocation, i.e., $\exists i, u_i>\bar{u}$. For those agents (single or multiple agents, let $\mathcal{I}$), let them give up their resources, i.e., $u_i=\bar{u}$. Since $\pi^*$ (optimal fair policy) should fully utilize resource, make those resourced used by the other agents (let $\mathcal{I}^C$). I haven't rigorously proved, but probably, by following the ratio-based resource allocation, it can be shown that $F_i'>F_i$ for all $i\in\mathcal{I}^C$. Additionally, since the mean $\bar{u}$ is maintained (due to the fully occupied resources), $F_i' > F_i$ for $i\in\mathcal{I}$ since $\hat{r}_t^i$ increases (see denominator). This process can be done recursively and since all procedures always increase (non-derease) $F_i$, which contradicts the precondition that $\pi$ was optimal.
 
 #### Hierarchy
-
+ -->
 
 
 ## Overall Score
