@@ -60,7 +60,9 @@ Fairness is essential for human society, contributing to stability and productiv
   }
   ,
   $$
+
   - $\bar{u}_t:=\frac{1}{n}\sum_{i=1}^nu_t^i$
+  
   - A measure of fairness.
     - A system is said to be **fairer** if and only if CV is **smaller**.
     - $u_t^i/\bar{u}_t\rightarrow 1,\forall i$, then, $CV_t\rightarrow0$
