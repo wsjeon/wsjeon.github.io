@@ -119,7 +119,7 @@ Fairness is essential for human society, contributing to stability and productiv
     =
     \frac{u^i}{\bar{u}}-1.
     $$
-    
+
     - It's natural since the resource allocation ratio is preserved.
     - However, $\bar{v}/c > \bar{u}/c$, which means $F_i'>F_i$ and $\pi$ is not optimal. That is, optimal policy should fully occupy resources.
 
@@ -133,14 +133,25 @@ Fairness is essential for human society, contributing to stability and productiv
 
 #### Hierarchy
 
+Using hierarchical training (like option-critic architecture) is proposed to balance between efficiency (individual performance) and fairness. High-level policy (controller) chooses one of the low-level policies (called sub-policy in the paper) and uses fair-efficient reward. Low-level policies are separated into two types: a policy updated with environment's reward and other policies based on entropy-based reward ($\log p(z|o)$). Honestly, I think there's no theoretical link between implementation and suggested theory except the fact that fair-efficient reward is used. I also doubt if using hierarchical policy for each agent is necessary in this setting.
+
+#### Decentralized Training
+
+Authors considered decentralized training for each agent (agent-wise PPO) and hope to coordinate agents via $\bar{u}$. However, knowing exact $\bar{u}$ is problematic. They used gossip-based algorithm to solve this issue, which I think their novelty comes out.
+
+### Experiments
+
+I haven't read the experiments yet.
+
+
 
 ## Overall Score
 - *NOTE*: Minimum score is 1.0. If there's been no assessment, score is 0.0.
 - Review Assessment
-  - Thoroughness In Paper Reading: 1.5 / 5.0
-  - Level of Understanding: 1.5 / 5.0
-  - Checking Correctness Of Derivations And Theory: 1.5 / 5.0
-  - Checking Correctness Of Experiments: 1.0 / 5.0
-- Novelty: 3.0 / 5.0
-- Readability: 2.0 / 5.0
-- Reproducibility: 1.0 / 5.0
+  - Thoroughness In Paper Reading: 2.5 / 5.0
+  - Level of Understanding: 2.5 / 5.0
+  - Checking Correctness Of Derivations And Theory: 3.5 / 5.0
+  - Checking Correctness Of Experiments: 0.0 / 5.0
+- Novelty: 3.5 / 5.0
+- Readability: 2.5 / 5.0
+- Reproducibility: 2.0 / 5.0
