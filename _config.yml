@@ -1,6 +1,6 @@
 name: Wonseok Jeon
 url: 'https://wsjeon.github.io/'
-description: 'Machine Learning Researcher'
+description: ''
 
 exclude: [Gemfile, Gemfile.lock, README.md]
 markdown: kramdown
