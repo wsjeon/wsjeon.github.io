@@ -3,7 +3,7 @@ layout: default
 title: About Me
 ---
 
-![Wonseok Jeon](https://wsjeon.github.io/images/me.png =200x)
+![Wonseok Jeon](https://wsjeon.github.io/images/me.png)
 
 I'm currently a postdoc researcher under the supervision of Prof. Joelle Pineau. My research interests include reinforcement learning, imitation learning and inverse reinforcement learning.
 
