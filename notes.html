@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Interesting Papers
-description: "Summaries on Interesting Conference or Journal Papers"
+title: Notes
+description: "Notes"
 ---
 
 <div id="summary">
   <ul class="posts">
     {% for post in site.posts %}
-      {% if post.category == "summary" %}
+      {% if post.category == "notes" %}
       <li><a href="{{ post.url }}">{{ post.title }}</a><span> &raquo; {{ post.date | date: "%B %d, %Y" }}</span></li>
       {% endif %}
     {% endfor %}
