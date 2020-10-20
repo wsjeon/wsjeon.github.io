@@ -30,22 +30,23 @@ During M.S. and Ph. D. at KAIST, I had worked on wireless communication problems
 
 ---
 ## Education
-- *May. 2019 - now*
-  - Postdoctoral researcher at [Mila](https://mila.quebec/) and [School of Computer Science, McGill University](https://cs.mcgill.ca/) under the supervision of Prof. [Joelle Pineau](https://www.cs.mcgill.ca/~jpineau/).
-- *Sep. 2017 - Apr. 2019*
-  - Postdoctoral researcher at [School of Computing, KAIST](https://cs.kaist.ac.kr/) under the supervision of Prof. [Kee-Eung Kim](http://ailab.kaist.ac.kr/).
-- *Feb. 2011 - Aug. 2017*
-  - Joint M.S./Ph.D. at [School of Electrical Engineering, KAIST](http://ee.kaist.ac.kr/) under the supervision of Prof. [Sae-Young Chung](http://itml.kaist.ac.kr/).
-- *Mar. 2007 - Feb. 2011*
-  - B.S at [School of Electrical and Electronic Engineering, Yonsei University](http://ee.yonsei.ac.kr/).
+[*May. 2019 - now*] Postdoctoral researcher at [Mila](https://mila.quebec/) and [School of Computer Science, McGill University](https://cs.mcgill.ca/)
+- Advisor: Prof. [Joelle Pineau](https://www.cs.mcgill.ca/~jpineau/).
+
+[*Sep. 2017 - Apr. 2019*] Postdoctoral researcher at [School of Computing, KAIST](https://cs.kaist.ac.kr/) (1 yr 8 mos)
+- Advisor: Prof. [Kee-Eung Kim](http://ailab.kaist.ac.kr/).
+
+[*Feb. 2011 - Aug. 2017*] Joint M.S./Ph.D. at [School of Electrical Engineering, KAIST](http://ee.kaist.ac.kr/) (6 yr 7 mos)
+- Advisor: Prof. [Sae-Young Chung](http://itml.kaist.ac.kr/).
+
+[*Mar. 2007 - Feb. 2011*] B.S at [School of Electrical and Electronic Engineering, Yonsei University](http://ee.yonsei.ac.kr/) (4 yr)
 
 
 ---
-## Publications ([Google Scholar](https://scholar.google.com/citations?hl=en&user=ETQY9KAAAAAJ&view_op=list_works&sortby=pubdate))
+## Publication ([Google Scholar](https://scholar.google.com/citations?hl=en&user=ETQY9KAAAAAJ&view_op=list_works&sortby=pubdate))
 
 
----
-### Preprints
+### Preprint
 
 
 **Wonseok Jeon**, Chen-Yang Su, Paul Barde, Thang Doan, Derek Nowrouzezahrai, Joelle Pineau,\
@@ -59,8 +60,7 @@ During M.S. and Ph. D. at KAIST, I had worked on wireless communication problems
 [[*paper*]](https://arxiv.org/abs/2002.10525)
 
 
----
-### Publications on Machine Learning
+### Publication - Machine Learning
 
 Paul Barde\*, Julien Roy\*, **Wonseok Jeon**\*, Joelle Pineau, Christopher Pal, Derek Nowrouzezahrai,\
 "Adversarial soft advantage fitting: imitation learning without policy optimization,"\
@@ -101,8 +101,7 @@ Geon-Hyeong Kim, Youngsoo Jang, Jongmin Lee, **Wonseok Jeon**, Hongseok Yang, an
 [[*code*]](https://github.com/wsjeon/BGAIL)
 
 
----
-### Publications on Wireless Communication, Information Theory and Electromagnetic Theory
+### Publication - Wireless Communication, Information Theory and Electromagnetism
 
 **Wonseok Jeon** and Sae-Young Chung,\
 "Capacity of continuous-space electromagnetic channels with lossy transceiver,"\
