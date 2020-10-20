@@ -13,7 +13,7 @@ title: About Me
 <a href="https://www.linkedin.com/in/wonseok-jeon-108653100/"><img src="https://wsjeon.github.io/images/iconmonstr-linkedin-3-240.png" class="icon"  width="50"/>
 </a>
 
-<a href="https://www.linkedin.com/in/wonseok-jeon-108653100/"><img src="https://wsjeon.github.io/images/iconmonstr-email-10-240.png" class="icon"  width="50"/>
+<a href="mailto:jeonwons@mila.quebec"><img src="https://wsjeon.github.io/images/iconmonstr-email-10-240.png" class="icon"  width="50"/>
 </a>
 
 
