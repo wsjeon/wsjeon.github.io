@@ -3,6 +3,14 @@ layout: default
 title: About Me
 ---
 <img src="https://wsjeon.github.io/images/me.png" width="150"/>
+<a href="https://github.com/wsjeon">
+<img src="https://wsjeon.github.io/images/iconmonstr-linkedin-3-240.png" width="50"/>
+</a>
+<a href="https://www.linkedin.com/in/wonseok-jeon-108653100/">
+<img src="https://wsjeon.github.io/images/iconmonstr-github-1-240.png" width="50"/>
+</a>
+Email: jeonwons [at] mila [dot] quebec
+
 
 I'm currently *a postdoctoral researcher at Mila/McGill University*. Previously, I was *a postdoctoral researcher at KAIST* . For both postdoc periods, I've been considering the problems of reinforcement learning, imitation learning, inverse reinforcement learning, multi-agent learning, and proposed efficient and simplified methods for those problems.
 
@@ -126,7 +134,7 @@ Jin Hak Kim, **Wonseok Jeon** and Sae-Young Chung,\
 ***International Conference of Learning Representations (ICLR)***\
 *2020 / 2021*
 
-***International Conference of Learning Representations (ACML)***\
+***Asian Conference on Machine Learning (ACML)***\
 *2019 / 2020*
 
 
