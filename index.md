@@ -10,11 +10,11 @@ title: About Me
   align-items: center;">
   <img class="photo" src="https://wsjeon.github.io/images/me.png" style="display:inline-block" width="250"/>
   <div class="icon-container">
-    <a href="https://github.com/wsjeon"><img class="icon" src="https://wsjeon.github.io/images/iconmonstr-github-1-240.png" style="display:inline-block; margin: 0rem 1rem;" width="50">
+    <a href="https://github.com/wsjeon"><img class="icon" src="https://wsjeon.github.io/images/iconmonstr-github-1-240.png" style="display:inline-block; margin: 0rem 1rem; width: 3em;" width="50">
     </a>
-    <a href="https://www.linkedin.com/in/wonseok-jeon-108653100/"><img src="https://wsjeon.github.io/images/iconmonstr-linkedin-3-240.png" class="icon" style="display:inline-block; margin: 0rem 1rem;" width="50"/>
+    <a href="https://www.linkedin.com/in/wonseok-jeon-108653100/"><img src="https://wsjeon.github.io/images/iconmonstr-linkedin-3-240.png" class="icon" style="display:inline-block; margin: 0rem 1rem; width: 3em;" width="50"/>
     </a>
-    <a href="mailto:jeonwons@mila.quebec"><img src="https://wsjeon.github.io/images/iconmonstr-email-10-240.png" class="icon" style="display:inline-block; margin: 0rem 1rem;" width="50"/>
+    <a href="mailto:jeonwons@mila.quebec"><img src="https://wsjeon.github.io/images/iconmonstr-email-10-240.png" class="icon" style="display:inline-block; margin: 0rem 1rem; width: 3em;" width="50"/>
     </a>
   </div>
 </div>
@@ -65,10 +65,11 @@ During M.S. and Ph. D. at KAIST, I had worked on wireless communication problems
 Paul Barde\*, Julien Roy\*, **Wonseok Jeon**\*, Joelle Pineau, Christopher Pal, Derek Nowrouzezahrai,\
 "Adversarial soft advantage fitting: imitation learning without policy optimization,"\
 *in Advances in Neural Information Processing Systems (NeurIPS), 2020*\
-<span style="color:red">
-***Spotlight Presentation, 395/9454=4.07%***
-</span>
-\
+<span>
+<strong><em style="
+    color: red;
+">Spotlight Presentation, 395/9454=4.07%</em></strong>
+</span>\
 (\**Equal Contribution*)\
 [[*paper*]](https://arxiv.org/abs/2006.13258)
 
@@ -91,8 +92,10 @@ Geon-Hyeong Kim, Youngsoo Jang, Jongmin Lee, **Wonseok Jeon**, Hongseok Yang, an
 **Wonseok Jeon**, Seokin Seo, and Kee-Eung Kim,
 "A Bayesian approach to generative adversarial imitation learning,"\
 *in Advances in Neural Information Processing Systems (NeurIPS), 2018*\
-<span style="color:red">
-***Spotlight Presentation, 168/4856=3.46%***
+<span>
+<strong><em style="
+    color: red;
+">Spotlight Presentation, 168/4856=3.46%</em></strong>
 </span>\
 [[*paper*]](https://papers.nips.cc/paper/7972-a-bayesian-approach-to-generative-adversarial-imitation-learning.pdf),
 [[*code*]](https://github.com/wsjeon/BGAIL)
