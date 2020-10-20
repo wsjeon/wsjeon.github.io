@@ -24,7 +24,7 @@ During M.S. and Ph. D. at KAIST, I had worked on wireless communication problems
 ## Publications ([Google Scholar](https://scholar.google.com/citations?hl=en&user=ETQY9KAAAAAJ&view_op=list_works&sortby=pubdate))
 
 
-#### Preprints
+### Preprints
 
 
 **Wonseok Jeon**, Chen-Yang Su, Paul Barde, Thang Doan, Derek Nowrouzezahrai, Joelle Pineau,\
@@ -38,12 +38,15 @@ During M.S. and Ph. D. at KAIST, I had worked on wireless communication problems
 [[*paper*]](https://arxiv.org/abs/2002.10525)
 
 
-#### Publications on Machine Learning
+### Publications on Machine Learning
 
 Paul Barde\*, Julien Roy\*, **Wonseok Jeon**\*, Joelle Pineau, Christopher Pal, Derek Nowrouzezahrai,\
 "Adversarial soft advantage fitting: imitation learning without policy optimization,"\
 *in Advances in Neural Information Processing Systems (NeurIPS), 2020*\
-***Spotlight Presentation, 395/9454=4.07%***\
+<span style="color:red">
+***Spotlight Presentation, 395/9454=4.07%***
+</span>
+\
 (\**Equal Contribution*)\
 [[*paper*]](https://arxiv.org/abs/2006.13258)
 
@@ -66,12 +69,14 @@ Geon-Hyeong Kim, Youngsoo Jang, Jongmin Lee, **Wonseok Jeon**, Hongseok Yang, an
 **Wonseok Jeon**, Seokin Seo, and Kee-Eung Kim,
 "A Bayesian approach to generative adversarial imitation learning,"\
 *in Advances in Neural Information Processing Systems (NeurIPS), 2018*\
-***Spotlight Presentation, 168/4856=3.46%***\
+<span style="color:red">
+***Spotlight Presentation, 168/4856=3.46%***
+</span>\
 [[*paper*]](https://papers.nips.cc/paper/7972-a-bayesian-approach-to-generative-adversarial-imitation-learning.pdf),
 [[*code*]](https://github.com/wsjeon/BGAIL)
 
 
-#### Publications on Wireless Communication, Information Theory and Electromagnetic Theory
+### Publications on Wireless Communication, Information Theory and Electromagnetic Theory
 
 **Wonseok Jeon** and Sae-Young Chung,\
 "Capacity of continuous-space electromagnetic channels with lossy transceiver,"\
