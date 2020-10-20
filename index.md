@@ -4,22 +4,15 @@ title: About Me
 ---
 
 <div class="main-container">
-
-<img class="photo" src="https://wsjeon.github.io/images/me.png" style="display:inline-block" width="250"/>
-
-<div class="icon-container">
-<a href="https://github.com/wsjeon"><img class="icon" src="https://wsjeon.github.io/images/iconmonstr-github-1-240.png" style="display:inline-block" width="50">
-</a>
-<a href="https://www.linkedin.com/in/wonseok-jeon-108653100/"><img src="https://wsjeon.github.io/images/iconmonstr-linkedin-3-240.png" class="icon"  width="50"/>
-</a>
-
-<a href="mailto:jeonwons@mila.quebec"><img src="https://wsjeon.github.io/images/iconmonstr-email-10-240.png" class="icon"  width="50"/>
-</a>
-
-
-
-
-</div>
+  <img class="photo" src="https://wsjeon.github.io/images/me.png" style="display:inline-block" width="250"/>
+  <div class="icon-container">
+    <a href="https://github.com/wsjeon"><img class="icon" src="https://wsjeon.github.io/images/iconmonstr-github-1-240.png" style="display:inline-block" width="50">
+    </a>
+    <a href="https://www.linkedin.com/in/wonseok-jeon-108653100/"><img src="https://wsjeon.github.io/images/iconmonstr-linkedin-3-240.png" class="icon"  width="50"/>
+    </a>
+    <a href="mailto:jeonwons@mila.quebec"><img src="https://wsjeon.github.io/images/iconmonstr-email-10-240.png" class="icon"  width="50"/>
+    </a>
+  </div>
 </div>
 
 I'm currently *a postdoctoral researcher at Mila/McGill University*. Previously, I was *a postdoctoral researcher at KAIST* . For both postdoc periods, I've been considering the problems of reinforcement learning, imitation learning, inverse reinforcement learning, multi-agent learning, and proposed efficient and simplified methods for those problems.
