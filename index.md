@@ -2,21 +2,29 @@
 layout: default
 title: About Me
 ---
+
+<div class="container">
+
 <img class="photo" src="https://wsjeon.github.io/images/me.png" style="display:inline-block" width="200"/>
+
+<div class="logos">
 <a href="https://github.com/wsjeon"><img class="icon" src="https://wsjeon.github.io/images/iconmonstr-github-1-240.png" style="display:inline-block" width="50">
 </a>
 <a href="https://www.linkedin.com/in/wonseok-jeon-108653100/"><img src="https://wsjeon.github.io/images/iconmonstr-linkedin-3-240.png"class="icon" style="display:inline-block" width="50"/>
 </a>
-
+</div>
+</div>
 
 I'm currently *a postdoctoral researcher at Mila/McGill University*. Previously, I was *a postdoctoral researcher at KAIST* . For both postdoc periods, I've been considering the problems of reinforcement learning, imitation learning, inverse reinforcement learning, multi-agent learning, and proposed efficient and simplified methods for those problems.
 
 During M.S. and Ph. D. at KAIST, I had worked on wireless communication problems and their limitations from the perspectives of information theory, electromagnetism and antenna theory.
 
----
+
 
 ***Contact Info***: jeonwons [at] mila [dot] quebec
 
+
+---
 ## Education
 - *May. 2019 - now*
   - Postdoctoral researcher at [Mila](https://mila.quebec/) and [School of Computer Science, McGill University](https://cs.mcgill.ca/) under the supervision of Prof. [Joelle Pineau](https://www.cs.mcgill.ca/~jpineau/).
@@ -27,9 +35,12 @@ During M.S. and Ph. D. at KAIST, I had worked on wireless communication problems
 - *Mar. 2007 - Feb. 2011*
   - B.S at [School of Electrical and Electronic Engineering, Yonsei University](http://ee.yonsei.ac.kr/).
 
+
+---
 ## Publications ([Google Scholar](https://scholar.google.com/citations?hl=en&user=ETQY9KAAAAAJ&view_op=list_works&sortby=pubdate))
 
 
+---
 ### Preprints
 
 
@@ -44,6 +55,7 @@ During M.S. and Ph. D. at KAIST, I had worked on wireless communication problems
 [[*paper*]](https://arxiv.org/abs/2002.10525)
 
 
+---
 ### Publications on Machine Learning
 
 Paul Barde\*, Julien Roy\*, **Wonseok Jeon**\*, Joelle Pineau, Christopher Pal, Derek Nowrouzezahrai,\
@@ -82,6 +94,7 @@ Geon-Hyeong Kim, Youngsoo Jang, Jongmin Lee, **Wonseok Jeon**, Hongseok Yang, an
 [[*code*]](https://github.com/wsjeon/BGAIL)
 
 
+---
 ### Publications on Wireless Communication, Information Theory and Electromagnetic Theory
 
 **Wonseok Jeon** and Sae-Young Chung,\
@@ -122,6 +135,7 @@ Jin Hak Kim, **Wonseok Jeon** and Sae-Young Chung,\
 *in Proceedings of IEEE International Symposium on Information Theory (ISIT), 2013*\
 [[*paper*]](https://ieeexplore.ieee.org/document/6620785)
 
+---
 ## Reviewer
 ***Neural Information Processing Systems (NeurIPS)***\
 *2019 / 2020*
@@ -136,11 +150,13 @@ Jin Hak Kim, **Wonseok Jeon** and Sae-Young Chung,\
 *2019 / 2020*
 
 
+---
 ## Talks
 "A Bayesian approach to generative adversarial imitation learning,"\
 ***SKT Brain***\
 *Mar, 2019*
 
+---
 ## Open Source Activity
 "Multi-Agent Deterministic Deep Policy Gradient (MADDPG)"\
 ***Ray/RLlib***,\
@@ -148,6 +164,7 @@ Jin Hak Kim, **Wonseok Jeon** and Sae-Young Chung,\
 [[*code2*]](https://github.com/wsjeon/maddpg-rllib)
 
 
+---
 ## Awards
 "Superdirectivity in Wireless Channels"\
 *Qualcomm-KAIST Innovation Award, 2015 [QCI Award-2015-07]*\
