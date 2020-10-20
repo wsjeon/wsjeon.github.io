@@ -2,20 +2,18 @@
 layout: default
 title: About Me
 ---
-<img src="https://wsjeon.github.io/images/me.png" width="150"/>
-<a href="https://github.com/wsjeon">
-<img src="https://wsjeon.github.io/images/iconmonstr-linkedin-3-240.png" width="50"/>
+<img class="photo" src="https://wsjeon.github.io/images/me.png" style="display:inline-block" width="200"/>
+<a href="https://github.com/wsjeon"><img class="icon" src="https://wsjeon.github.io/images/iconmonstr-github-1-240.png" style="display:inline-block" width="50">
 </a>
-<a href="https://www.linkedin.com/in/wonseok-jeon-108653100/">
-<img src="https://wsjeon.github.io/images/iconmonstr-github-1-240.png" width="50"/>
+<a href="https://www.linkedin.com/in/wonseok-jeon-108653100/"><img src="https://wsjeon.github.io/images/iconmonstr-linkedin-3-240.png"class="icon" style="display:inline-block" width="50"/>
 </a>
-Email: jeonwons [at] mila [dot] quebec
 
 
 I'm currently *a postdoctoral researcher at Mila/McGill University*. Previously, I was *a postdoctoral researcher at KAIST* . For both postdoc periods, I've been considering the problems of reinforcement learning, imitation learning, inverse reinforcement learning, multi-agent learning, and proposed efficient and simplified methods for those problems.
 
 During M.S. and Ph. D. at KAIST, I had worked on wireless communication problems and their limitations from the perspectives of information theory, electromagnetism and antenna theory.
 
+---
 
 ***Contact Info***: jeonwons [at] mila [dot] quebec
 
