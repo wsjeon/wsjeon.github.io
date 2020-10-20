@@ -3,14 +3,18 @@ layout: default
 title: About Me
 ---
 
-<div class="main-container">
+<div class="main-container" style="display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  flex-direction: column;
+  align-items: center;">
   <img class="photo" src="https://wsjeon.github.io/images/me.png" style="display:inline-block" width="250"/>
   <div class="icon-container">
-    <a href="https://github.com/wsjeon"><img class="icon" src="https://wsjeon.github.io/images/iconmonstr-github-1-240.png" style="display:inline-block" width="50">
+    <a href="https://github.com/wsjeon"><img class="icon" src="https://wsjeon.github.io/images/iconmonstr-github-1-240.png" style="display:inline-block; margin: 0rem 1rem;" width="50">
     </a>
-    <a href="https://www.linkedin.com/in/wonseok-jeon-108653100/"><img src="https://wsjeon.github.io/images/iconmonstr-linkedin-3-240.png" class="icon"  width="50"/>
+    <a href="https://www.linkedin.com/in/wonseok-jeon-108653100/"><img src="https://wsjeon.github.io/images/iconmonstr-linkedin-3-240.png" class="icon" style="display:inline-block; margin: 0rem 1rem;" width="50"/>
     </a>
-    <a href="mailto:jeonwons@mila.quebec"><img src="https://wsjeon.github.io/images/iconmonstr-email-10-240.png" class="icon"  width="50"/>
+    <a href="mailto:jeonwons@mila.quebec"><img src="https://wsjeon.github.io/images/iconmonstr-email-10-240.png" class="icon" style="display:inline-block; margin: 0rem 1rem;" width="50"/>
     </a>
   </div>
 </div>
