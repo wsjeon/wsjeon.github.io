@@ -89,7 +89,7 @@ Geon-Hyeong Kim, Youngsoo Jang, Jongmin Lee, **Wonseok Jeon**, Hongseok Yang, an
 [[*paper*]](http://proceedings.mlr.press/v101/kim19a.html)
 
 
-**Wonseok Jeon**, Seokin Seo, and Kee-Eung Kim,
+**Wonseok Jeon**, Seokin Seo, and Kee-Eung Kim,\
 "A Bayesian approach to generative adversarial imitation learning,"\
 *in Advances in Neural Information Processing Systems (NeurIPS), 2018*\
 <span>
@@ -159,7 +159,7 @@ Jin Hak Kim, **Wonseok Jeon** and Sae-Young Chung,\
 ---
 ## Talks
 "A Bayesian approach to generative adversarial imitation learning,"\
-***SKT Brain***\
+***SK T-Brain***\
 *Mar, 2019*
 
 ---
