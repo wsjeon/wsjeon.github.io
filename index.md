@@ -63,7 +63,7 @@ During M.S. and Ph. D. at KAIST, I had worked on wireless communication problems
 ### Publication - Machine Learning
 
 Paul Barde\*, Julien Roy\*, **Wonseok Jeon**\*, Joelle Pineau, Christopher Pal, Derek Nowrouzezahrai,\
-"Adversarial soft advantage fitting: imitation learning without policy optimization,"\
+"Adversarial soft advantage fitting: Imitation learning without policy optimization,"\
 *in Advances in Neural Information Processing Systems (NeurIPS), 2020*\
 <span>
 <strong><em style="
