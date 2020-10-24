@@ -49,11 +49,6 @@ During M.S. and Ph. D. at KAIST, I had worked on wireless communication problems
 ### Preprint
 
 
-**Wonseok Jeon**, Chen-Yang Su, Paul Barde, Thang Doan, Derek Nowrouzezahrai, Joelle Pineau,\
-"Regularized inverse reinforcement learning,"\
-*preprint, 2020*\
-[[*paper*]](https://arxiv.org/abs/2010.03691)
-
 **Wonseok Jeon**, Paul Barde, Derek Nowrouzezahrai, Joelle Pineau,\
 "Scalable multi-agent inverse reinforcement learning via actor-attention-critic,"\
 *preprint, 2020*\
@@ -62,9 +57,14 @@ During M.S. and Ph. D. at KAIST, I had worked on wireless communication problems
 
 ### Publication - Machine Learning
 
+**Wonseok Jeon**, Chen-Yang Su, Paul Barde, Thang Doan, Derek Nowrouzezahrai, Joelle Pineau,\
+"Regularized inverse reinforcement learning,"\
+*NeurIPS Workshop on Deep Reinforcement Learning (DRLW), 2020*\
+[[*paper*]](https://arxiv.org/abs/2010.03691)
+
 Paul Barde\*, Julien Roy\*, **Wonseok Jeon**\*, Joelle Pineau, Christopher Pal, Derek Nowrouzezahrai,\
 "Adversarial soft advantage fitting: Imitation learning without policy optimization,"\
-*in Advances in Neural Information Processing Systems (NeurIPS), 2020*\
+*Advances in Neural Information Processing Systems (NeurIPS), 2020*\
 <span>
 <strong><em style="
     color: red;
@@ -80,18 +80,18 @@ Paul Barde\*, Julien Roy\*, **Wonseok Jeon**\*, Joelle Pineau, Christopher Pal, 
 
 Jongmin Lee, **Wonseok Jeon**, Geon-Hyeong Kim, and Kee-Eung Kim,\
 "Monte-Carlo tree search in continuous action spaces with value gradients,"\
-*in Proceedings of the 34th AAAI Conference on Artificial Intelligence (AAAI), 2020*\
+*Proceedings of the 34th AAAI Conference on Artificial Intelligence (AAAI), 2020*\
 [[*paper*]](https://aaai.org/ojs/index.php/AAAI/article/view/5885)
 
 Geon-Hyeong Kim, Youngsoo Jang, Jongmin Lee, **Wonseok Jeon**, Hongseok Yang, and Kee-Eung Kim,\
 "Trust region sequential variational inference,"\
-*in Proceedings of the 11th Asian Conference on Machine Learning (ACML), 2019*\
+*Proceedings of the 11th Asian Conference on Machine Learning (ACML), 2019*\
 [[*paper*]](http://proceedings.mlr.press/v101/kim19a.html)
 
 
 **Wonseok Jeon**, Seokin Seo, and Kee-Eung Kim,\
 "A Bayesian approach to generative adversarial imitation learning,"\
-*in Advances in Neural Information Processing Systems (NeurIPS), 2018*\
+*Advances in Neural Information Processing Systems (NeurIPS), 2018*\
 <span>
 <strong><em style="
     color: red;
@@ -124,12 +124,12 @@ Jin Hak Kim, **Wonseok Jeon** and Sae-Young Chung,\
 
 **Wonseok Jeon** and Sae-Young Chung,\
 "Interference mitigation utilizing antenna mutual coupling,"\
-*in Proceedings of the 49th Asimolar Conference on Signals, Systems and Computers, 2015*\
+*Proceedings of the 49th Asimolar Conference on Signals, Systems and Computers, 2015*\
 [[*paper*]](https://ieeexplore.ieee.org/document/7421074)
 
 **Wonseok Jeon** and Sae-Young Chung,\
 "Improving degrees of freedom of wireless channels using superdirectivity,"\
-*in Proceedings of IEEE International Symposium on Information Theory (ISIT), 2015*\
+*Proceedings of IEEE International Symposium on Information Theory (ISIT), 2015*\
 [[*paper*]](https://ieeexplore.ieee.org/document/7283007)
 
 **Wonseok Jeon** and Sae-Young Chung,\
@@ -138,7 +138,7 @@ Jin Hak Kim, **Wonseok Jeon** and Sae-Young Chung,\
 
 **Wonseok Jeon** and Sae-Young Chung,\
 "The capacity of wireless channels: A physical approach,"\
-*in Proceedings of IEEE International Symposium on Information Theory (ISIT), 2013*\
+*Proceedings of IEEE International Symposium on Information Theory (ISIT), 2013*\
 [[*paper*]](https://ieeexplore.ieee.org/document/6620785)
 
 ---
