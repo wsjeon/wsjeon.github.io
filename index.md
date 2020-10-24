@@ -59,7 +59,7 @@ During M.S. and Ph. D. at KAIST, I had worked on wireless communication problems
 
 **Wonseok Jeon**, Chen-Yang Su, Paul Barde, Thang Doan, Derek Nowrouzezahrai, Joelle Pineau,\
 "Regularized inverse reinforcement learning,"\
-*NeurIPS Workshop on Deep Reinforcement Learning (DRLW), 2020*\
+*NeurIPS Deep Reinforcement Learning Workshop (DRLW), 2020*\
 [[*paper*]](https://arxiv.org/abs/2010.03691)
 
 Paul Barde\*, Julien Roy\*, **Wonseok Jeon**\*, Joelle Pineau, Christopher Pal, Derek Nowrouzezahrai,\
