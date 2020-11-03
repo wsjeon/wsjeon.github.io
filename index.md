@@ -176,5 +176,4 @@ Jin Hak Kim, **Wonseok Jeon** and Sae-Young Chung,\
 ---
 ## Awards
 "Superdirectivity in Wireless Channels"\
-*Qualcomm-KAIST Innovation Award, 2015 [QCI Award-2015-07]*\
-***Top 20 Papers***
+*Qualcomm-KAIST Innovation Award, 2015 [QCI Award-2015-07]*
