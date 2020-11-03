@@ -14,7 +14,7 @@ title: About Me
     </a>
     <a href="https://www.linkedin.com/in/wonseok-jeon-108653100/"><img src="https://wsjeon.github.io/images/iconmonstr-linkedin-3-240.png" class="icon" style="display:inline-block; margin: 0rem 1rem; width: 3em;" width="50"/>
     </a>
-    <a href="https://scholar.google.com/citations?hl=en&user=ETQY9KAAAAAJ&view_op=list_works&sortby=pubdate"><img src="https://wsjeon.github.io/images/iconmonstr-hat-3-240.png" class="icon" style="display:inline-block; margin: 0rem 1rem; width: 3em;" width="50"/>
+    <a href="https://scholar.google.com/citations?hl=en&user=ETQY9KAAAAAJ&view_op=list_works&sortby=pubdate"><img src="https://wsjeon.github.io/images/iconmonstr-scholar-3-240.png" class="icon" style="display:inline-block; margin: 0rem 1rem; width: 3em;" width="50"/>
     </a>
   </div>
 </div>
