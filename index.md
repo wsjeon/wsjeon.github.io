@@ -14,7 +14,7 @@ title: About Me
     </a>
     <a href="https://www.linkedin.com/in/wonseok-jeon-108653100/"><img src="https://wsjeon.github.io/images/iconmonstr-linkedin-3-240.png" class="icon" style="display:inline-block; margin: 0rem 1rem; width: 3em;" width="50"/>
     </a>
-    <a href="mailto:jeonwons@mila.quebec"><img src="https://wsjeon.github.io/images/iconmonstr-email-10-240.png" class="icon" style="display:inline-block; margin: 0rem 1rem; width: 3em;" width="50"/>
+    <a href="https://scholar.google.com/citations?hl=en&user=ETQY9KAAAAAJ&view_op=list_works&sortby=pubdate"><img src="https://wsjeon.github.io/images/iconmonstr-hat-3-240.png" class="icon" style="display:inline-block; margin: 0rem 1rem; width: 3em;" width="50"/>
     </a>
   </div>
 </div>
@@ -43,7 +43,7 @@ During M.S. and Ph. D. at KAIST, I had worked on wireless communication problems
 
 
 ---
-## Publication ([Google Scholar](https://scholar.google.com/citations?hl=en&user=ETQY9KAAAAAJ&view_op=list_works&sortby=pubdate))
+## Publications
 
 
 ### Preprint
@@ -55,7 +55,7 @@ During M.S. and Ph. D. at KAIST, I had worked on wireless communication problems
 [[*paper*]](https://arxiv.org/abs/2002.10525)
 
 
-### Publication - Machine Learning
+### Publications - Machine Learning
 
 **Wonseok Jeon**, Chen-Yang Su, Paul Barde, Thang Doan, Derek Nowrouzezahrai, Joelle Pineau,\
 "Regularized inverse reinforcement learning,"\
@@ -101,7 +101,7 @@ Geon-Hyeong Kim, Youngsoo Jang, Jongmin Lee, **Wonseok Jeon**, Hongseok Yang, an
 [[*code*]](https://github.com/wsjeon/BGAIL)
 
 
-### Publication - Wireless Communication, Information Theory and Electromagnetism
+### Publications - Wireless Communication, Information Theory and Electromagnetism
 
 **Wonseok Jeon** and Sae-Young Chung,\
 "Capacity of continuous-space electromagnetic channels with lossy transceiver,"\
