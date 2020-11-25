@@ -19,17 +19,18 @@ title: About Me
   </div>
 </div>
 
-I'm currently *a postdoctoral researcher at Mila/McGill University*. Previously, I was *a postdoctoral researcher at KAIST* . For both postdoc periods, I've been considering the problems of reinforcement learning, imitation learning, inverse reinforcement learning, multi-agent learning, and proposed efficient and simplified methods for those problems.
+Currently, I'm a postdoctoral researcher at Mila and School of Computer Science, McGill University under the supervision of Prof. [Joelle Pineau](https://www.cs.mcgill.ca/~jpineau/). <!--Previously, I was *a postdoctoral researcher at KAIST* . For both postdoc periods,--> Since 2017, I've been interested in various topics in reinforcement learning. Mainly, I've been working on imitation learning and inverse reinforcement learning, considering how to efficiently learn from demonstrations.
 
-During M.S. and Ph. D. at KAIST, I had worked on wireless communication problems and their limitations from the perspectives of information theory, electromagnetism and antenna theory.
+<!--During M.S. and Ph. D. at KAIST, I had worked on wireless communication problems and their limitations from the perspectives of information theory, electromagnetism and antenna theory.-->
 
-Here is my [CV](https://wsjeon.github.io/pdfs/Curriculum_Vitae.pdf) for more information.
+For more information, please check my [CV](https://wsjeon.github.io/pdfs/Curriculum_Vitae.pdf) and [resesarch statement](https://wsjeon.github.io/pdfs/Research_Statement.pdf).
 
 
 
 ***Contact Information***: jeonwons [at] mila [dot] quebec
 
 
+<!---
 
 ---
 ## Education
@@ -44,6 +45,8 @@ Here is my [CV](https://wsjeon.github.io/pdfs/Curriculum_Vitae.pdf) for more inf
 
 [*Mar. 2007 - Feb. 2011*] B.S at [School of Electrical and Electronic Engineering, Yonsei University](http://ee.yonsei.ac.kr/) (4 yr)
 
+--->
+
 
 ---
 ## Publications
@@ -52,22 +55,22 @@ Here is my [CV](https://wsjeon.github.io/pdfs/Curriculum_Vitae.pdf) for more inf
 ### Preprint
 
 
-**Wonseok Jeon**, Paul Barde, Derek Nowrouzezahrai, Joelle Pineau,\
+[P1] **Wonseok Jeon**, Paul Barde, Derek Nowrouzezahrai, Joelle Pineau,\
 "Scalable multi-agent inverse reinforcement learning via actor-attention-critic,"\
-*preprint, 2020*\
+*preprint, 2020*
 [[*paper*]](https://arxiv.org/abs/2002.10525)
 
 
 ### Publications - Machine Learning
 
-**Wonseok Jeon**, Chen-Yang Su, Paul Barde, Thang Doan, Derek Nowrouzezahrai, Joelle Pineau,\
+[W4] **Wonseok Jeon**, Chen-Yang Su, Paul Barde, Thang Doan, Derek Nowrouzezahrai, Joelle Pineau,\
 "Regularized inverse reinforcement learning,"\
-*NeurIPS Deep Reinforcement Learning Workshop (DRLW), 2020*\
+*NeurIPS Deep Reinforcement Learning Workshop (DRLW), 2020*
 [[*paper*]](https://arxiv.org/abs/2010.03691)
 
-Paul Barde\*, Julien Roy\*, **Wonseok Jeon**\*, Joelle Pineau, Christopher Pal, Derek Nowrouzezahrai,\
+[C7] Paul Barde\*, Julien Roy\*, **Wonseok Jeon**\*, Joelle Pineau, Christopher Pal, Derek Nowrouzezahrai,\
 "Adversarial soft advantage fitting: Imitation learning without policy optimization,"\
-*Advances in Neural Information Processing Systems (NeurIPS), 2020*\
+*NeurIPS, 2020*
 <span>
 <strong><em style="
     color: red;
@@ -76,25 +79,25 @@ Paul Barde\*, Julien Roy\*, **Wonseok Jeon**\*, Joelle Pineau, Christopher Pal, 
 (\**Equal Contribution*)\
 [[*paper*]](https://arxiv.org/abs/2006.13258)
 
-**Wonseok Jeon**, Paul Barde, Derek Nowrouzezahrai, and Joelle Pineau,\
+[W3] **Wonseok Jeon**, Paul Barde, Derek Nowrouzezahrai, and Joelle Pineau,\
 "Scalable and sample-efficient multi-agent imitation learning,"\
-*AAAI Workshop on Reinforcement Learning in Games (AAAI-RLG), 2020*\
+*AAAI Workshop on Reinforcement Learning in Games, 2020*\
 [[*paper*]](http://aaai-rlg.mlanctot.info/papers/AAAI20-RLG_paper_25.pdf)
 
-Jongmin Lee, **Wonseok Jeon**, Geon-Hyeong Kim, and Kee-Eung Kim,\
+[C6] Jongmin Lee, **Wonseok Jeon**, Geon-Hyeong Kim, and Kee-Eung Kim,\
 "Monte-Carlo tree search in continuous action spaces with value gradients,"\
-*Proceedings of the 34th AAAI Conference on Artificial Intelligence (AAAI), 2020*\
+*AAAI, 2020*\
 [[*paper*]](https://aaai.org/ojs/index.php/AAAI/article/view/5885)
 
-Geon-Hyeong Kim, Youngsoo Jang, Jongmin Lee, **Wonseok Jeon**, Hongseok Yang, and Kee-Eung Kim,\
+[C5] Geon-Hyeong Kim, Youngsoo Jang, Jongmin Lee, **Wonseok Jeon**, Hongseok Yang, and Kee-Eung Kim,\
 "Trust region sequential variational inference,"\
-*Proceedings of the 11th Asian Conference on Machine Learning (ACML), 2019*\
+*ACML, 2019*\
 [[*paper*]](http://proceedings.mlr.press/v101/kim19a.html)
 
 
-**Wonseok Jeon**, Seokin Seo, and Kee-Eung Kim,\
+[C4] **Wonseok Jeon**, Seokin Seo, and Kee-Eung Kim,\
 "A Bayesian approach to generative adversarial imitation learning,"\
-*Advances in Neural Information Processing Systems (NeurIPS), 2018*\
+*NeurIPS, 2018*
 <span>
 <strong><em style="
     color: red;
@@ -104,44 +107,44 @@ Geon-Hyeong Kim, Youngsoo Jang, Jongmin Lee, **Wonseok Jeon**, Hongseok Yang, an
 [[*code*]](https://github.com/wsjeon/BGAIL)
 
 
-### Publications - Wireless Communication, Information Theory and Electromagnetism
+### Publications - Information Theory and Wireless Communication
 
-**Wonseok Jeon** and Sae-Young Chung,\
+[J3] **Wonseok Jeon** and Sae-Young Chung,\
 "Capacity of continuous-space electromagnetic channels with lossy transceiver,"\
 *IEEE Transactions on Information Theory, Mar. 2018*\
 [[*paper*]](https://ieeexplore.ieee.org/document/8239704)
 
-Jin Hak Kim, **Wonseok Jeon** and Sae-Young Chung,\
+[J2] Jin Hak Kim, **Wonseok Jeon** and Sae-Young Chung,\
 "Asymptotic Analysis on Directivity and Beamwidth of Uniform Circular Array,"\
 *IEEE Antennas and Wireless Propagation Letters, Oct. 2017*\
 [[*paper*]](https://ieeexplore.ieee.org/document/8066308)
 
-**Wonseok Jeon**, Jin Hak Kim and Sae-Young Chung,\
+[J1] **Wonseok Jeon**, Jin Hak Kim and Sae-Young Chung,\
 "Effect of mutual coupling on uniform circular arrays with vector antenna elements,"\
 *IEEE Antennas and Wireless Propagation Letters, Feb. 2017*\
 [[*paper*]](https://ieeexplore.ieee.org/document/7849230)
 
-**Wonseok Jeon** and Sae-Young Chung,\
+[W2] **Wonseok Jeon** and Sae-Young Chung,\
 "Interference mitigation using receiver superdirectivity,"\
-*Information Theory and Applications Workshop (ITA), 2016*
+*ITA Workshop, 2016*
 
-**Wonseok Jeon** and Sae-Young Chung,\
+[C3] **Wonseok Jeon** and Sae-Young Chung,\
 "Interference mitigation utilizing antenna mutual coupling,"\
-*Proceedings of the 49th Asimolar Conference on Signals, Systems and Computers, 2015*\
+*Asimolar Conference on Signals, Systems and Computers, 2015*\
 [[*paper*]](https://ieeexplore.ieee.org/document/7421074)
 
-**Wonseok Jeon** and Sae-Young Chung,\
+[C2] **Wonseok Jeon** and Sae-Young Chung,\
 "Improving degrees of freedom of wireless channels using superdirectivity,"\
-*Proceedings of IEEE International Symposium on Information Theory (ISIT), 2015*\
+*ISIT, 2015*\
 [[*paper*]](https://ieeexplore.ieee.org/document/7283007)
 
-**Wonseok Jeon** and Sae-Young Chung,\
+[W1] **Wonseok Jeon** and Sae-Young Chung,\
 "Noise spatial correlation and receive superdirectivity in wireless channels,"\
-*Information Theory and Applications Workshop (ITA), 2015*
+*ITA Workshop, 2015*
 
-**Wonseok Jeon** and Sae-Young Chung,\
+[C1] **Wonseok Jeon** and Sae-Young Chung,\
 "The capacity of wireless channels: A physical approach,"\
-*Proceedings of IEEE International Symposium on Information Theory (ISIT), 2013*\
+*ISIT, 2013*\
 [[*paper*]](https://ieeexplore.ieee.org/document/6620785)
 
 ---
