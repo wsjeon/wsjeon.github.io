@@ -23,7 +23,7 @@ Currently, I'm a postdoctoral researcher at Mila and School of Computer Science,
 
 <!--During M.S. and Ph. D. at KAIST, I had worked on wireless communication problems and their limitations from the perspectives of information theory, electromagnetism and antenna theory.-->
 
-For more information, please check my [CV](https://wsjeon.github.io/pdfs/Curriculum_Vitae.pdf) and [resesarch statement](https://wsjeon.github.io/pdfs/Research_Statement.pdf).
+For more information, please check my [CV](https://wsjeon.github.io/pdfs/Curriculum_Vitae.pdf) and [research statement](https://wsjeon.github.io/pdfs/Research_Statement.pdf).
 
 
 
