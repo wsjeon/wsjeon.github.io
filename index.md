@@ -72,7 +72,7 @@ For more information, please check my [CV](https://wsjeon.github.io/pdfs/Curricu
     color: red;
 ">Spotlight Presentation</em></strong>
 </span>\
-[[*paper*]](https://arxiv.org/abs/2010.03691)
+[[*paper*]](https://openreview.net/forum?id=HgLO8yalfwc)
 
 [C7] Paul Barde\*, Julien Roy\*, **Wonseok Jeon**\*, Joelle Pineau, Christopher Pal, Derek Nowrouzezahrai,\
 "Adversarial soft advantage fitting: Imitation learning without policy optimization,"\
