@@ -65,13 +65,13 @@ For more information, please check my [CV](https://wsjeon.github.io/pdfs/Curricu
 
 [C8, W4] **Wonseok Jeon**, Chen-Yang Su, Paul Barde, Thang Doan, Derek Nowrouzezahrai, Joelle Pineau,\
 "Regularized inverse reinforcement learning,"\
-*ICLR, 2021*\
-*NeurIPS Deep Reinforcement Learning Workshop (DRLW), 2020*
+*ICLR, 2021*
 <span>
 <strong><em style="
     color: red;
 ">Spotlight Presentation</em></strong>
 </span>\
+*NeurIPS Deep Reinforcement Learning Workshop (DRLW), 2020*\
 [[*paper*]](https://openreview.net/forum?id=HgLO8yalfwc)
 
 [C7] Paul Barde\*, Julien Roy\*, **Wonseok Jeon**\*, Joelle Pineau, Christopher Pal, Derek Nowrouzezahrai,\
