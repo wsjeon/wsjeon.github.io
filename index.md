@@ -69,7 +69,7 @@ For more information, please check my [CV](https://wsjeon.github.io/pdfs/Curricu
 <span>
 <strong><em style="
     color: red;
-">Spotlight Presentation</em></strong>
+">Spotlight Presentation, 167/2997=5.57%</em></strong>
 </span>\
 *NeurIPS Deep Reinforcement Learning Workshop (DRLW), 2020*\
 [[*paper*]](https://openreview.net/forum?id=HgLO8yalfwc)
