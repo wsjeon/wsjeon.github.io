@@ -19,11 +19,9 @@ title: About Me
   </div>
 </div>
 
-Currently, I'm a postdoctoral researcher at Mila and School of Computer Science, McGill University under the supervision of Prof. [Joelle Pineau](https://www.cs.mcgill.ca/~jpineau/). <!--Previously, I was *a postdoctoral researcher at KAIST* . For both postdoc periods,--> Since 2017, I've been interested in various topics in reinforcement learning. Mainly, I've been working on imitation learning and inverse reinforcement learning, considering how to efficiently learn from demonstrations.
+I'm a postdoctoral researcher at [Mila](https://mila.quebec/), McGill University under the supervision of Prof. [Joelle Pineau](https://www.cs.mcgill.ca/~jpineau/). Since 2017, I have been working on learning to control, mostly on learning from demonstrations, e.g., imitation learning and inverse reinforcement learning. My recent research interest is offline reinforcement learning.
 
-<!--During M.S. and Ph. D. at KAIST, I had worked on wireless communication problems and their limitations from the perspectives of information theory, electromagnetism and antenna theory.-->
-
-For more information, please check my [CV](https://wsjeon.github.io/pdfs/Curriculum_Vitae.pdf) and [research statement](https://wsjeon.github.io/pdfs/Research_Statement.pdf).
+For more information, please check out my [CV](https://wsjeon.github.io/pdfs/Curriculum_Vitae.pdf) and [research statement](https://wsjeon.github.io/pdfs/Research_Statement.pdf).
 
 
 
@@ -51,19 +49,12 @@ For more information, please check my [CV](https://wsjeon.github.io/pdfs/Curricu
 ---
 ## Publications
 
-
-### Preprint
-
-
 [P1] **Wonseok Jeon**, Paul Barde, Derek Nowrouzezahrai, Joelle Pineau,\
 "Scalable multi-agent inverse reinforcement learning via actor-attention-critic,"\
 *preprint, 2020*
 [[*paper*]](https://arxiv.org/abs/2002.10525)
 
-
-### Publications - Machine Learning
-
-[C8, W4] **Wonseok Jeon**, Chen-Yang Su, Paul Barde, Thang Doan, Derek Nowrouzezahrai, Joelle Pineau,\
+[C8, W4] **Wonseok Jeon**, [Chen-Yang Su](https://chenyangsu.github.io/), Paul Barde, [Thang Doan](https://tldoan.github.io/), Derek Nowrouzezahrai, Joelle Pineau,\
 "Regularized inverse reinforcement learning,"\
 *ICLR, 2021*
 <span>
